@@ -30,7 +30,7 @@ twitter_username: YtAirWolfXD
 github_username:  AirWolfXD
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: cayman
 plugins:
   - jekyll-feed
 
