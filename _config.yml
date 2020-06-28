@@ -30,7 +30,7 @@ twitter_username: YtAirWolfXD
 github_username:  AirWolfXD
 
 # Build settings
-theme: minima
+remote_theme: inded/Jekyll_modern-blog
 plugins:
   - jekyll-feed
 
