@@ -33,6 +33,7 @@ github_username:  AirWolfXD
 remote_theme: BlackrockDigital/startbootstrap
 plugins:
   - jekyll-feed
+  -jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
