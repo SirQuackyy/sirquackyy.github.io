@@ -30,7 +30,7 @@ twitter_username: YtAirWolfXD
 github_username:  AirWolfXD
 
 # Build settings
-remote_theme: https://github.com/BlackrockDigital/startbootstrap
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
