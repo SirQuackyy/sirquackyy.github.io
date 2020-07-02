@@ -6,9 +6,15 @@
 - title: Group of Things
   url: /group/
   sublinks:
-    - title: Sub-item 1
+    - title: About
       url: /group/si1
-    - title: Sub-item 2
+    - title: Blog
       url: /group/si2
-    - title: Sub-item 3
+    - title: Projects
       url: /group/si3
+    - title: Usaco
+      url: /group/si4
+    - title: Games
+      url: /group/si5
+    - title: Contact Us
+      url: /group/si6
