@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<article id="main">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .wrapper.style5 h2 {
+            font-size: 40px;
+            color: #512e85;
+            border-top: 1px solid #dedede;
+            border-bottom: 1px solid #dedede;
+            text-shadow: 0 0.07em 0 #dedede
+        }
+        .wrapper.style5 {
+            color: #ffffff;
+        }
+        img {
+            height:100px;
+        }
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 150px;
+            height: 180px;
+            margin: 20px;
+            padding: 0 0 0 0;
+          }
+          .row {
+            margin: 0 0 0 0;
+          }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+           .card:hover {
+             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+           }
+
+           .wrapper.style5 b {
+            font-weight: 1000;
+            overflow: hidden;
+            color: #512e85;
+            text-overflow: ellipsis;
+           }
+           div {
+            text-align: center
+           }
+        </style>
+    </head>
+
+    <header>
+        <h2>{{ page.title }}</h2>
+    </header>
+
+    <section class="wrapper style5">
+        <div class="inner">
+            {{ content }}
+        </div>
+    </section>
+
+</article>

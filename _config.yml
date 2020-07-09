@@ -51,6 +51,15 @@ social:
   #forumbee:
   #tripadvisor:
   #amazon:
+nav_list:
+  Home: '/index.html'
+  Blog: '/Blog.html'
+  Projects: '/Projects.html'
+  Courses: '/Courses.html'
+  Usaco: '/Usaco.html'
+  Games: '/Games.html'
+  Videos: '/Videos.html'
+  Contact Us: '/ContactUs.html'
 
 # Build settings
 markdown: kramdown
