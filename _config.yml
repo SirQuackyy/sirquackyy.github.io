@@ -3,10 +3,8 @@
 
 # Site settings
 title: Andrewyu.dev
-description: |
+description:
   Programming
-  | Gaming
-  | Life
 owner: Andrew Yu # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: 2521andy@gmail.com
