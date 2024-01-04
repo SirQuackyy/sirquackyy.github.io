@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: andrewyu.dev
-Token: cc97f2636304796a5cf01cdb3b0af827448ae67f6aa7dcb2705dc2b5f6bec921
