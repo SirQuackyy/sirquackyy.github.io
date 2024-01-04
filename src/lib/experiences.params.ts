@@ -15,7 +15,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Founder & Executive Director',
 		color: '#ffffff',
 		links: [{to: 'https://polyverse.studio/', label: "Website"}],
-		logo: Assets.Unknown,
+		logo: Assets.polyverse,
 		shortDescription: ''
 	},
 	{
@@ -26,11 +26,11 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Remote',
 		period: { from: new Date('February 2023') },
-		skills: getSkills('unity', 'c#', 'js'),
+		skills: getSkills('unity', 'csharp', 'js'),
 		name: 'Software Engineer Intern',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.darim,
 		shortDescription: ''
 	},
 	{
@@ -45,7 +45,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Summer Intern',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.galileo,
 		shortDescription: ''
 	}
 ];
