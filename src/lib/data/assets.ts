@@ -10,6 +10,7 @@ const a = (light: string, dark?: string): Asset =>
 const Assets = {
 	// ratemate: a('ratemate.png'),
 	// covidunlocked: a('covidunlocked.png'),
+	oneclub: a('oneclub.png'),
 	keepinsafe: a('keepinsafe.png'),
 	sociapolis: a('sociapolis.jfif'),
 	// eyesee: a('eyesee.png'),

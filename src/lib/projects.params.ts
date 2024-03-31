@@ -470,7 +470,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			"The application takes user input for the motor they are planning to use, the location and time of their launch, and the rocket characteristics. From this, the app creates a forecast for the weather and wind conditions of the launch location at the time of launch and, combining this information with info from the motor and rocket data, calculates and provides interactive graphs for translational/rotational velocity, acceleration, trajectory, fuel consumption, predicted maximum altitude, predicted impact location, thrust/impulse/drag, and energy consumption. It also outputs a KML file that can be imported into Google Earth to see the trajectory of the rocket in the exact location of the launch to provide clearer visualization.",
 		links: [{ to: 'https://github.com/SirQuackyy/StellarHacks2024', label: 'Github' },{ to: 'https://devpost.com/software/your-rocket-launch-simulator', label: 'Devpost' }],
-		logo: Assets.Unknown,
+		logo: Assets.oneclub,
 		name: 'YOUR Rocket Launch Simulator',
 		period: {
 			from: new Date('March 30, 2024'),
