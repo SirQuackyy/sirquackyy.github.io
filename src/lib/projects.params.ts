@@ -444,6 +444,40 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('js', 'html', 'css', 'nodejs'),
 		type: 'Hackathon'
+	},
+	{
+		slug: 'OneClub',
+		color: '#5e95e3',
+		description:
+			"OneClub is a unified club scheduling management system built for schools. The platform allows users to view all future club meeting dates and times through a calendar, allowing club officers to schedule meetings at the most convenient times and prevent potential scheduling conflicts. Club participants can easily join clubs through a club search with additional information regarding each club, and use a sort feature that sorts clubs by type.",
+		shortDescription:
+			"OneClub is a unified club scheduling management system built for schools. The platform allows users to view all future club meeting dates and times through a calendar, allowing club officers to schedule meetings at the most convenient times and prevent potential scheduling conflicts. Club participants can easily join clubs through a club search with additional information regarding each club, and use a sort feature that sorts clubs by type.",
+		links: [{ to: 'https://github.com/SirQuackyy/OneClub', label: 'Github' },{ to: 'https://devpost.com/software/oneclub', label: 'Devpost' }],
+		logo: Assets.Unknown,
+		name: 'OneClub',
+		period: {
+			from: new Date('February 17, 2024'),
+			to: new Date('February 18, 2024')
+		},
+		skills: getSkills('js', 'html', 'css', 'nodejs', 'reactjs'),
+		type: 'Hackathon'
+	},
+	{
+		slug: 'YOUR Rocket Launch Simulator',
+		color: '#5e95e3',
+		description:
+			"The application takes user input for the motor they are planning to use, the location and time of their launch, and the rocket characteristics. From this, the app creates a forecast for the weather and wind conditions of the launch location at the time of launch and, combining this information with info from the motor and rocket data, calculates and provides interactive graphs for translational/rotational velocity, acceleration, trajectory, fuel consumption, predicted maximum altitude, predicted impact location, thrust/impulse/drag, and energy consumption. It also outputs a KML file that can be imported into Google Earth to see the trajectory of the rocket in the exact location of the launch to provide clearer visualization.",
+		shortDescription:
+			"The application takes user input for the motor they are planning to use, the location and time of their launch, and the rocket characteristics. From this, the app creates a forecast for the weather and wind conditions of the launch location at the time of launch and, combining this information with info from the motor and rocket data, calculates and provides interactive graphs for translational/rotational velocity, acceleration, trajectory, fuel consumption, predicted maximum altitude, predicted impact location, thrust/impulse/drag, and energy consumption. It also outputs a KML file that can be imported into Google Earth to see the trajectory of the rocket in the exact location of the launch to provide clearer visualization.",
+		links: [{ to: 'https://github.com/SirQuackyy/StellarHacks2024', label: 'Github' },{ to: 'https://devpost.com/software/your-rocket-launch-simulator', label: 'Devpost' }],
+		logo: Assets.Unknown,
+		name: 'YOUR Rocket Launch Simulator',
+		period: {
+			from: new Date('March 30, 2024'),
+			to: new Date('March 30, 2024')
+		},
+		skills: getSkills('python'),
+		type: 'Hackathon'
 	}
 ];
 
