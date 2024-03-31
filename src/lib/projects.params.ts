@@ -459,7 +459,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date('February 17, 2024'),
 			to: new Date('February 18, 2024')
 		},
-		skills: getSkills('js', 'html', 'css', 'nodejs', 'reactjs'),
+		skills: getSkills('js', 'html', 'css', 'nodejs', 'reactjs', 'mongodb'),
 		type: 'Hackathon',
 		screenshots: [
 			{
