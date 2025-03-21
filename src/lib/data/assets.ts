@@ -10,6 +10,11 @@ const a = (light: string, dark?: string): Asset =>
 const Assets = {
 	// ratemate: a('ratemate.png'),
 	// covidunlocked: a('covidunlocked.png'),
+	reeldeal: a('reeldeal.png'),
+	mbus: a('mbus.png'),
+	flutter: a('flutter.svg'),
+	dart: a('dart.png'),
+	umich: a('umich.png'),
 	oneclub: a('oneclub.png'),
 	keepinsafe: a('keepinsafe.png'),
 	sociapolis: a('sociapolis.jfif'),

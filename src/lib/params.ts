@@ -45,7 +45,7 @@ export const HOME: HomePageParams = {
 	name: 'Andrew',
 	lastName: 'Yu',
 	description:
-		"I'm an experienced fullstack developer in mobile and web development with a love for creating games that bring joy to people's lives.",
+		"I'm a student at the University of Michigan and an experienced fullstack developer in web and app development with a love for creating games that bring joy to people's lives.",
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/SirQuackyy' },
 		{

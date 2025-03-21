@@ -3,12 +3,24 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
+		degree: 'BSE @ University of Michigan',
+		description: '',
+		location: 'Ann Arbor, MI',
+		logo: Assets.umich,
+		name: '',
+		organization: 'Undergraduate - GPA: 4.0',
+		period: { from: new Date(2024, 8, 26) },
+		shortDescription: '',
+		slug: 'umich',	
+		subjects: ['Discrete Mathematics', 'Data Structures and Algorithms', 'Computer Organization']
+	},
+	{
 		degree: 'Dougherty Valley High School',
 		description: '',
 		location: 'San Ramon, CA',
 		logo: Assets.dvhs,
 		name: '',
-		organization: 'High School - W GPA: 4.32 - U/W GPA: 3.91',
+		organization: 'High School - GPA: 4.42',
 		period: { from: new Date(2020, 8, 10), to: new Date(2024, 8, 10) },
 		shortDescription: '',
 		slug: 'dvhs',	

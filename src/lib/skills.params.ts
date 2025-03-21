@@ -88,7 +88,21 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Android,
 		name: 'Android Studio'
-	})
+	}),
+	s({
+		slug: 'flutter',
+		color: 'blue',
+		description: '',
+		logo: Assets.Flutter,
+		name: 'Flutter'
+	}),
+	s({
+		slug: 'dart',
+		color: 'blue',
+		description: '',
+		logo: Assets.Dart,
+		name: 'Dart'
+	}),
 ];
 
 export default MY_SKILLS;
