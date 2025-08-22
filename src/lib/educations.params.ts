@@ -3,16 +3,28 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
+		degree: 'Hong Kong University of Science and Technology',
+		description: '',
+		location: 'Clear Water Bay, Hong Kong',
+		logo: Assets.hkust,
+		name: '',
+		organization: 'Study Abroad',
+		period: { from: new Date(2025, 6, 12), to: new Date(2025, 8, 9) },
+		shortDescription: '',
+		slug: 'hkust',
+		subjects: ['Database Management Systems', 'Applied Statistics']
+	},
+	{
 		degree: 'BSE @ University of Michigan',
 		description: '',
 		location: 'Ann Arbor, MI',
 		logo: Assets.umich,
 		name: '',
-		organization: 'Undergraduate - GPA: 4.0',
+		organization: 'Undergraduate - GPA: 3.96',
 		period: { from: new Date(2024, 8, 26) },
 		shortDescription: '',
 		slug: 'umich',	
-		subjects: ['Discrete Mathematics', 'Data Structures and Algorithms', 'Computer Organization']
+		subjects: ['Discrete Mathematics', 'Data Structures and Algorithms', 'Computer Organization', 'Machine Learning', 'Advanced Data Mining', 'Web Systems']
 	},
 	{
 		degree: 'Dougherty Valley High School',
