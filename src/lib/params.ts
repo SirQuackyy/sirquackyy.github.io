@@ -83,6 +83,11 @@ export const RESUME: ResumePageParams = {
 	item: 'Resume.pdf'
 };
 
+export const TRANSCRIPT: ResumePageParams = {
+	title: 'Transcript',
+	item: 'Transcript.pdf'
+}
+
 export const SEARCH: SearchPageParams = {
 	title: 'Search'
 };

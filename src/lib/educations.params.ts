@@ -20,7 +20,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		location: 'Ann Arbor, MI',
 		logo: Assets.umich,
 		name: '',
-		organization: 'Undergraduate - GPA: 3.96',
+		organization: 'Undergraduate - GPA: 3.95',
 		period: { from: new Date(2024, 8, 26) },
 		shortDescription: '',
 		slug: 'umich',	
