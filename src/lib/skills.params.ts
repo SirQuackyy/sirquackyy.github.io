@@ -17,6 +17,14 @@ const MY_SKILLS = [
 		name: 'Javascript'
 	}),
 	s({
+		slug: 'ai',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.Unknown,
+		name: 'AI/Machine Learning'
+	}),
+	s({
 		slug: 'html',
 		color: 'orange',
 		description:
