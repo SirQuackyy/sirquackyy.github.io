@@ -9,6 +9,30 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 
 const MY_SKILLS = [
 	s({
+		slug: 'ocaml',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.OCaml,
+		name: 'OCaml'
+	}),
+	s({
+		slug: 'swift',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.Swift,
+		name: 'Swift'
+	}),
+	s({
+		slug: 'kotlin',
+		color: 'purple',
+		description:
+			'',
+		logo: Assets.Kotlin,
+		name: 'Kotlin'
+	}),
+	s({
 		slug: 'js',
 		color: 'yellow',
 		description:

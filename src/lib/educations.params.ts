@@ -20,11 +20,11 @@ export const MY_EDUCATIONS: Array<Education> = [
 		location: 'Ann Arbor, MI',
 		logo: Assets.umich,
 		name: '',
-		organization: 'Undergraduate - GPA: 3.95',
+		organization: 'Undergraduate',
 		period: { from: new Date(2024, 8, 26) },
 		shortDescription: '',
 		slug: 'umich',	
-		subjects: ['Discrete Mathematics', 'Data Structures and Algorithms', 'Computer Organization', 'Machine Learning', 'Advanced Data Mining', 'Web Systems']
+		subjects: ['Discrete Mathematics', 'Data Structures and Algorithms', 'Computer Organization', 'Machine Learning', 'Computer Vision', 'Web Systems', 'Operating Systems']
 	},
 	{
 		degree: 'Dougherty Valley High School',

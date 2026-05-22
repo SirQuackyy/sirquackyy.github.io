@@ -10,6 +10,10 @@ const a = (light: string, dark?: string): Asset =>
 const Assets = {
 	// ratemate: a('ratemate.png'),
 	// covidunlocked: a('covidunlocked.png'),
+	OCaml: a('ocaml.png'),
+	Kotlin: a('kotlin.png'),
+	Swift: a('swift.png'),
+	d3: a('d3.jpg'),
 	hkust: a('hkust.png'),
 	reeldeal: a('reeldeal.png'),
 	mbus: a('mbus.png'),
